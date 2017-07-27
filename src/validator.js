@@ -92,5 +92,4 @@ class Validator {
     }
 }
 
-var validator = new Validator('350783198101016534')
-console.log(validator.valid())
+module.exports = Validator;

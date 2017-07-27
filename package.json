@@ -1,0 +1,29 @@
+{
+  "name": "cn-id-validate",
+  "version": "1.0.0",
+  "description": "中国公民身份证格式校验",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runfan/cn-id-validator.git"
+  },
+  "keywords": [
+    "身份证",
+    "idcard",
+    "cnid",
+    "validator"
+  ],
+  "author": "cw.fan@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/runfan/cn-id-validator/issues"
+  },
+  "homepage": "https://github.com/runfan/cn-id-validator#readme"
+}
