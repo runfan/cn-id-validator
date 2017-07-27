@@ -1,1 +1,3 @@
-test
+# Dependency directories
+node_modules/
+test/
