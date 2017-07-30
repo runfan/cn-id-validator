@@ -16,5 +16,5 @@ const result = validator.valid();
 ```javascript
 false // if faild
 { address: '北京市东城区', birthday: '1968-09-02', age: 48, gender: 0 } //if success
-// 0 女，1 男
+// gender 0 女，1 男
 ```
