@@ -1,7 +1,7 @@
 # cn-id-validator
 18位中国公民身份证号码合法性校验
 基于 es6 语法
-install 
+## install 
 
 ```
 npm install cn-id-validator
