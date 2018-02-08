@@ -1,4 +1,6 @@
 # cn-id-validator
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/runfan/cn-id-validator.svg)](https://greenkeeper.io/)
 18位中国公民身份证号码合法性校验
 基于 es6 语法
 ## install 
