@@ -6,7 +6,7 @@ describe('CNIDValidator', () => {
         const v = new Validator('11010119670524545X');
         const info = v.valid()
         expect(info).to.be.a('object')
-        expect(info.age).to.eq(50)
+        expect(info.age).to.eq(new Date().getFullYear() - 1967)
         expect(info.birthday).to.eq('1967-05-24');
         expect(info.gender).to.equal(1)
     });
