@@ -35,15 +35,13 @@ class Validator {
         if (data.hasOwnProperty(code)) {
             addr += data[code]
         }
-        const match = Object.keys(data).filter(key => {
-            return (code.substr(0, 2) + '0000')=== key || (code.substr(0, 4) + '00') === key;
-        })
-        if (match.length > 1) {
-            addr = data[match[1]] + addr;
-            addr = data[match[0]] + addr;
-        } else if (match.length > 0) {
-            addr = data[match[0]] + addr
-        } else {
+        if (data.hasOwnProperty((code.substr(0, 4) + '00'))) {
+            addr = data[(code.substr(0, 4) + '00')] + addr;
+        }
+        if (data.hasOwnProperty((code.substr(0, 2) + '00'))) {
+            addr = data[(code.substr(0, 2) + '00')] + addr;
+        }
+        if (!addr) {
             return '未知地址'
         }
         return addr;
