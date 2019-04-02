@@ -1,6 +1,6 @@
 {
   "name": "cn-id-validate",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "中国公民身份证格式校验",
   "main": "index.js",
   "dependencies": {
